@@ -1,7 +1,11 @@
-0f4815e0277a8c7450d75c0b00fa0d3f *DESCRIPTION
+da59845e1dee6f6b5b8c32d1ca722a0a *DESCRIPTION
 638d1458bd8e06121311f1f8ee700e5c *NAMESPACE
 3601f8aea97eddb2fc65a4f8432feea5 *R/RcppExports.R
 018f3f1e28e2814c00a33b21da412cbd *R/factor_DP_fun.R
+53ffdb6e3a25173e3548df9dd4f338ea *build/vignette.rds
+385af4f9ef875d3b44bf3265ff984b4a *inst/doc/BCSub.R
+2df88560a6e6896033501dd542829980 *inst/doc/BCSub.Rmd
+717101325f9eb25db558f56fe79be53e *inst/doc/BCSub.pdf
 79343d76015c7fa7452a61b6cd50c29a *man/BCSub.Rd
 faa046e2a6046ee82461a81ef6b81863 *man/calSim.Rd
 0f0d00be2ed4b0352e78a3810a130035 *man/dmvnrm_arma.Rd
@@ -18,3 +22,5 @@ d47512593f008934a7544d5375816450 *man/samSige.Rd
 2a6f9e9e044a78154d3cfda5936d6f48 *src/Makevars.win
 9d19ee495f423cab0eb388fe2a1d5463 *src/RcppExports.cpp
 4e170aa7887b78e1042f21c95b82a863 *src/factor_DP_fun.cpp
+2df88560a6e6896033501dd542829980 *vignettes/BCSub.Rmd
+b546bfa09719c1f6069473ad00d89146 *vignettes/BCSub.bib
