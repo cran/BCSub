@@ -2,8 +2,8 @@ Package: BCSub
 Type: Package
 Title: A Bayesian Semiparametric Factor Analysis Model for Subtype
         Identification (Clustering)
-Version: 0.3
-Date: 2017-01-19
+Version: 0.5
+Date: 2017-03-16
 Author: Jiehuan Sun [aut, cre], Joshua L. Warren [aut], and Hongyu Zhao [aut]
 Maintainer: Jiehuan Sun <jiehuan.sun@yale.edu>
 Description: Gene expression profiles are commonly utilized to infer disease
@@ -26,6 +26,6 @@ VignetteBuilder: knitr
 LinkingTo: Rcpp, RcppArmadillo
 RoxygenNote: 5.0.1
 NeedsCompilation: yes
-Packaged: 2017-01-20 00:56:57 UTC; JiehuanSun
+Packaged: 2017-03-16 18:20:40 UTC; JiehuanSun
 Repository: CRAN
-Date/Publication: 2017-01-20 10:46:47
+Date/Publication: 2017-03-16 23:41:02 UTC

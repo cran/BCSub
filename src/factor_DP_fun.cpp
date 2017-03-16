@@ -137,7 +137,8 @@ IntegerVector polyurncpp(IntegerVector e,arma::vec muA0,arma::mat sigma0,arma::m
             unit.ones();
             tmpSig = arma::inv(sigma0Inv + ind.size()*sigmaInv);
             tmpMu = tmpSig*(sigmaInv*arma::trans(A.rows(ind))*unit + sigma0Inv*muA0);
-            pp[j] = dmvnrm_arma(A.row(i),arma::trans(tmpMu),tmpSig+sigma,true)[0] + log(ind.size());
+            pp[j] = dmvnrm_arma(A.row(i),arma::trans(tmpMu),tmpSig+sigma,true)[0] +
+                log(ind.size()*1.0);
         }
         //Rf_PrintValue(wrap(eset));
         //Rf_PrintValue(wrap(pp));
